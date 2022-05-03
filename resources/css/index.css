@@ -1,0 +1,132 @@
+body {
+  box-sizing: border-box;
+}
+
+.purpleIcon {
+  position: absolute;
+  width: 27px;
+  height: 9px;
+  top: 10px;
+  background: linear-gradient(96.34deg, #E537B9 0%, #C040DF 100%);
+  border-radius: 4.5px;
+}
+
+.crio-news {
+  width: 1322px;
+  height: 91px;
+  top: 0px;
+
+  background: #ffffff !important;
+}
+.container-fluid h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+hr {
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  left: 0px;
+  top: 71px;
+  margin-top: 0%;
+  border: 0.5px solid #4e4e4e;
+}
+
+#eventAndDescription {
+  margin-top: 1em;
+  margin-bottom: .5rem;
+}
+#todayEvent {
+  font-weight: 600;
+  font-size: 23px;
+}
+#eventDescription h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 0;
+}
+#eventDescription h5{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #858585;
+
+
+
+  margin-bottom: 0.5rem;
+}
+.accordion{
+  margin-top: auto;
+}
+.accordion-button {
+  padding-left: 0;
+}
+.accordion-item {
+  border: none;
+}
+.accordion-header p{
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(115, 115, 115, 1);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: white;
+  box-shadow: none;
+  
+}
+.accordion-button:focus {
+  border-color: none;
+  box-shadow: none;
+}
+.author {
+  color: #586069;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 28px;
+  width: 55%;
+  align-items: center;
+}
+img{
+  object-fit: contain;
+}
+.carousel-control-next {
+  right: -27px;
+  width: 2%;
+  background-color: #f6f8fa;
+  border-radius: 10px;
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3C!--! Font Awesome Pro 6.0.0 by %40fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons  Inc. --%3E%3Cpath d='M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z'/%3E%3C/svg%3E");
+  background-size: 5px;
+}
+.card-title{
+  color:rgba(41, 43, 46, 1);
+}
+.card-text {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  color: rgba(41, 43, 46, 1);
+}
+.fa-circle-small{
+  width: 4px;
+  height: 4px;
+  background-color: black;
+  border-radius: 20px;
+
+}
